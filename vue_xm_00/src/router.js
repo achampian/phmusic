@@ -4,6 +4,7 @@ import Portal from './views/Portal.vue'
 import billboard from './views/billboard.vue'
 import player from './views/player.vue'
 import index from './views/index.vue'
+import login from './views/login.vue'
 
 Vue.use(Router)
 
@@ -13,5 +14,6 @@ export default new Router({
     {path: '/portal',component: Portal},
     {path: '/billboard',component:billboard },
     {path: '/player',component:player },
+    {path: '/login',component:login },
   ]
 })

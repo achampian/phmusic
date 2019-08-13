@@ -86,7 +86,7 @@
     <div class="bg-wrk"></div>
     </div>
 </template>
-<script scoped>
+<script>
 export default {
     data() {
         return {
@@ -99,7 +99,7 @@ export default {
    },
 }
 </script>
-<style>
+<style scoped>
 .player a{
     color: rgba(199, 199, 199, 0.568);
 }
