@@ -7,9 +7,9 @@ const session = require("express-session");
 //2:配置第三方模块
  //2.1:配置连接池
  var pool = mysql.createPool({
-   host:"127.0.0.1",
+   host:"localhost",
    user:"root",
-   password:"",
+   password:"password",
    port:3306,
    database:"yxjw",
    connectionLimit:15
@@ -38,19 +38,17 @@ server.get("/portal",(req,res)=>{
   //-参数
   var obj = {code:1,msg:"查询成功"};
   var sql = "SELECT lid,title";
-  sql+=" ,zname,language,brief,z_img,l_img,userid,pepoid,bid";
+  sql+=",zname,language,brief,z_img,l_img,pepoid";
   sql+=" FROM songlist";
   pool.query(sql,(err,result)=>{
       if(err)throw err;
       res.send(result);
       })
   });
-//5.排行榜页面歌曲
+// 5.排行榜页面歌曲
 server.get("/billboard",(req,res)=>{
-var listid=req.query.listid;
-if(!listid)listid=73;
-var sql="SELECT sname,yname,s_img,listid FROM songs WHERE listid=?"
-pool.query(sql,[listid],(err,result)=>{
+var sql="SELECT sname,yname,s_img,listid FROM songs"
+pool.query(sql,(err,result)=>{
   if(err)throw err;
   res.send(result)
 })

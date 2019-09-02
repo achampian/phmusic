@@ -55,7 +55,14 @@
             </div>
         </div>
         <!--   播放器 -->
-<div class="play_ft">
+
+    <!--  -->
+     </div>
+
+    <!-- 背景 -->
+    <div  class="bg-pic"><img class="bule" src="https://y.gtimg.cn/music/photo_new/T002R300x300M000002FN1rR4PKMng.jpg?max_age=2592000" alt=""></div>
+    <div class="bg-wrk">
+        <div class="play_ft">
 <div class="ppn">
     <a href="" class="iconfont icon-Prev-Button"></a>
     <a href="" class="iconfont icon-Play-Button"></a>
@@ -78,12 +85,7 @@
 <a href="" class="iconfont icon-Volume-"></a>
 </div>
 </div>
-    <!--  -->
-     </div>
-
-    <!-- 背景 -->
-    <div  class="bg-pic"><img class="bule" src="https://y.gtimg.cn/music/photo_new/T002R300x300M000002FN1rR4PKMng.jpg?max_age=2592000" alt=""></div>
-    <div class="bg-wrk"></div>
+    </div>
     </div>
 </template>
 <script>
@@ -100,6 +102,9 @@ export default {
 }
 </script>
 <style scoped>
+.player{
+    height: 100%;
+}
 .player a{
     color: rgba(199, 199, 199, 0.568);
 }
@@ -348,8 +353,8 @@ font-size: 20px !important;
     } 
 .list_right .bottom{
     width: 16vw;
-    height: 17vw;
-    padding-top: 100px;
+    height: 15vw;
+    padding-top: 10px;
     overflow: hidden;
 }
 .list_right .bottom p{
@@ -365,7 +370,7 @@ font-size: 20px !important;
     position: absolute;
     display: flex;
     align-items: center;
-    bottom: -18%;
+    bottom: 0;
     width: 100%;
     height: 6vw;
     z-index: 9;

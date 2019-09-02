@@ -91,7 +91,7 @@
     >
       <div class="item_child">
         <div class="music_item">
-          <a href=""><img :src="'http://127.0.0.1:3000/img/'+item.l_img" alt="">
+          <a href=""><img :src="'http://127.0.0.1:3000/songlist_img/'+item.l_img" alt="">
       </a> <img style="position: absolute;" src="https://y.gtimg.cn/mediastyle/yqq/img/cover_play.png?max_age=2592000&v=88abebcbc1242dbbbbc836cc3e04a006" alt="">
       </div>
         <div>

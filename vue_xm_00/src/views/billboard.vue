@@ -75,16 +75,16 @@
         <!--  -->
         <div class="conter">
         <!--  -->
-               <div id="d1" v-for="(item,i) of listbd2" :data-id="item.lid" :key="i" class="p_list">
+               <div id="d1" v-for="(item,i) of listnext" :data-id="item.lid" :key="i" class="p_list">
                     <div class="p_item">
                         <div class="p_name"><a href="">{{item.title}}></a></div>
                         <div><span class="p_title">每天更新</span></div>
                         <div class="p_row">
                             <div class="p_pic">
-                            <img style="width:100%" :src="'http://127.0.0.1:3000/img/'+item.l_img" alt="">
+                            <img style="width:100%" :src="'http://127.0.0.1:3000/songlist_img/'+item.l_img" alt="">
                             </div>
                         <div  class="f_list">
-                            <div v-for="(item,j) of songs2" :key="j" class="f_row">
+                            <div v-for="(item,j) of songs" :key="j" class="f_row">
                                 <div class="rank">{{j+1}}</div>
                                 <div style="z-index:9" class="font">
                                     <a href="">{{item.sname}}</a>
@@ -94,7 +94,7 @@
                         </div>
                         </div>
                        <div class="bg_item">
-                          <img style="width:100%;height:100%" :src="'http://127.0.0.1:3000/img/'+item.l_img" alt="">
+                          <img style="width:100%;height:100%" :src="'http://127.0.0.1:3000/songlist_img/'+item.l_img" alt="">
                       </div>
                       </div>
                      
@@ -152,13 +152,8 @@ export default {
     data() {
         return {
             list:[],
-            listbd:[],
-            listbd2:[],
-            l_img:[],
-            lname:[],
-            lid:"",
-            songs:"",
-            songs2:""
+            listnext:'',
+            songs:[]
         }
     },
     methods: {
@@ -166,72 +161,21 @@ export default {
         loadlist(){
          var url="portal";
          this.axios.get(url).then(result=>{
-         this.list=result.data;
-         for(var blist of this.list){
-             if(blist.bid==1){
-                 this.listbd.push(blist);
-                 this.loadsong()
-             }
-             if(blist.bid==2){
-                 //请求二楼歌单
-                
-            this.listbd2.push(blist);
-            this.loadsongs2()
-             }
-         }
+         this.listnext=result.data;
+         console.log(result.data)
+         })
+        },
+       loadlist1(){
+         var url="billboard";
+         this.axios.get(url).then(result=>{
+         this.songs=result.data;
          })
         },
         //请一楼求歌曲
-       loadsong(){
-           var url="billboard";
-           this.lid=this.listbd[0].lid;
-           var id=this.lid
-           var obj={listid:id}
-           this.axios.get(url,{params:obj}).then(result=>{
-                  this.songs=result.data
-           })
        },
-       //请求二楼歌曲
-        loadsongs2(){
-           var url="billboard";
-           this.lid=this.listbd2[0].lid;
-           var id=this.lid
-           var obj={listid:id}
-         this.axios.get(url,{params:obj}).then(result=>{
-                    this.songs2=result.data
-        })
-       },
-       //一楼切换单机事件
-        change(i){
-            var url="billboard";
-           this.lid=this.listbd[i].lid;
-           var id=this.lid
-           var obj={listid:id}
-           this.axios.get(url,{params:obj}).then(result=>{
-                  this.songs=result.data
-           })
-        },
-        change1(i){
-            var url="billboard";
-           this.lid=this.listbd[i].lid;
-           var id=this.lid
-           var obj={listid:id}
-           this.axios.get(url,{params:obj}).then(result=>{
-                  this.songs=result.data
-           })
-        },
-        change2(i){
-            var url="billboard";
-           this.lid=this.listbd[i].lid;
-           var id=this.lid
-           var obj={listid:id}
-           this.axios.get(url,{params:obj}).then(result=>{
-                  this.songs=result.data
-           })
-        }
-    },
     created() {
         this.loadlist();
+        this.loadlist1();
     },
 }
 </script>
@@ -417,6 +361,8 @@ margin: 0 auto;
     }
     .p_row{
         display: flex;
+        height: 100%;
+        overflow: hidden;
         z-index: 2;
     }
     .p_item{
@@ -436,6 +382,7 @@ margin: 0 auto;
         background-repeat: no-repeat;
         background-color: rgba(134, 126, 134, 0.397);
         opacity: 0.08;
+        overflow: hidden;
         z-index: 0;
     }
     .p_name{
@@ -510,11 +457,15 @@ margin: 0 auto;
     display: -ms-flexbox;
     display: flex;
     padding: 3px 0;
+    overflow: hidden;
     align-items: center;
     }
     .f_row>.rank{
         font-size: 16px;
         color: #666;
+    }
+    .f_list{
+        height: 100%;
     }
     .font{
         color: rgb(139, 139, 139);

@@ -18,10 +18,10 @@
 </el-dropdown>
       <ul>
         <li><router-link to="/">发现<span style="left:8px"></span></router-link></li>
-        <li><a href="javascript:;">我的音乐<span style="left:22px"></span></a></li>
-        <li><a href="javascript:;">音乐人<span style="left:14px"></span></a></li>
-        <li><a href="javascript:;">客户端下载<span style="left:30px"></span></a></li>
-        <li><a href="javascript:;">会员中心 <img style="width:26px" src="../assets/vip.png" alt=""><span style="left:22px"></span></a></li>
+        <li><router-link to="login">我的音乐<span style="left:22px"></span></router-link></li>
+        <li><router-link to="login">音乐人<span style="left:14px"></span></router-link></li>
+        <li><router-link to="login">客户端下载<span style="left:30px"></span></router-link></li>
+        <li><router-link to="login">会员中心 <img style="width:26px" src="../assets/vip.png" alt=""><span style="left:22px"></span></router-link></li>
       </ul>
     </div>
     <div>

@@ -49,12 +49,12 @@
           </div>
           <div class="five_nav">
                     <ul>
-                      <li><router-link to="">精选</router-link></li>
-                      <li><router-link to="">内地</router-link></li>
-                      <li><router-link to="">欧美</router-link></li>
-                      <li><router-link to="">韩语</router-link></li>
-                      <li><router-link to="">日语</router-link></li>
-                      <li><router-link to="">港台</router-link></li>
+                      <li><router-link to='player'>精选</router-link></li>
+                      <li><router-link to='player'>内地</router-link></li>
+                      <li><router-link to='player'>欧美</router-link></li>
+                      <li><router-link to='player'>韩语</router-link></li>
+                      <li><router-link to='player'>日语</router-link></li>
+                      <li><router-link to='player'>港台</router-link></li>
                     </ul>
               </div>
           <div class="one_songs_list">
@@ -79,7 +79,7 @@
           <!--  -->
             <div class="athers_img_father">
               <div class="athers_wrapper">
-                <router-link to="">
+                <router-link to='player'>
                   <img  src="https://pic.xiami.net/images/collect/316261284/881712206/8c6f8b21761a4195b9b7312c8b2e91c3_66fea37a152b44b0a73d73f1a2735159.jpg?x-oss-process=image/resize,m_fill,limit_0,s_300/quality,q_80" alt="">
                 </router-link>
                 <div class="count">
@@ -89,9 +89,9 @@
                       <img class="img_btn" src="../assets/bofang.png" alt="">
               </div>
               <div class="word">
-                  <p><router-link to="">从拥抱你的那一刻，我们的命运就闩上了门</router-link></p>
-                  <p><router-link to="">蔡世清</router-link></p>
-                  <p><router-link to="">治愈、舒缓、安静</router-link></p>
+                  <p><router-link to='player'>从拥抱你的那一刻，我们的命运就闩上了门</router-link></p>
+                  <p><router-link to='player'>蔡世清</router-link></p>
+                  <p><router-link to='player'>治愈、舒缓、安静</router-link></p>
               </div>
                
             </div>
@@ -100,7 +100,7 @@
              <!--  -->
             <div class="athers_img_father">
               <div class="athers_wrapper">
-                <router-link to="">
+                <router-link to='player'>
                   <img  src="https://pic.xiami.net/webh5/files/xiamiWeb/98b3654f123bb997d2b91d407af22855-242x242.gif?x-oss-process=image/resize,m_fill,limit_0,s_300/quality,q_80" alt="">
                 </router-link>
                 <div class="count">
@@ -110,16 +110,16 @@
                       <img class="img_btn" src="../assets/bofang.png" alt="">
               </div>
               <div class="word">
-                  <p><router-link to="">从拥抱你的那一刻，我们的命运就闩上了门</router-link></p>
-                  <p><router-link to="">蔡世清</router-link></p>
-                  <p><router-link to="">治愈、舒缓、安静</router-link></p>
+                  <p><router-link to='player'>从拥抱你的那一刻，我们的命运就闩上了门</router-link></p>
+                  <p><router-link to='player'>蔡世清</router-link></p>
+                  <p><router-link to='player'>治愈、舒缓、安静</router-link></p>
               </div>
                
             </div>
             <!--  -->   <!--  -->
             <div class="athers_img_father">
               <div class="athers_wrapper">
-                <router-link to="">
+                <router-link to='player'>
                   <img  src="https://pic.xiami.net/images/collect/421998/913380332/f5dde8996ca241c89c4bb3135805c29a_47b2c25f5acf434e97d5e7bd7d3acedc.jpg?x-oss-process=image/resize,m_fill,limit_0,s_300/quality,q_80" alt="">
                 </router-link>
                 <div class="count">
@@ -129,16 +129,16 @@
                       <img class="img_btn" src="../assets/bofang.png" alt="">
               </div>
               <div class="word">
-                  <p><router-link to="">从拥抱你的那一刻，我们的命运就闩上了门</router-link></p>
-                  <p><router-link to="">蔡世清</router-link></p>
-                  <p><router-link to="">治愈、舒缓、安静</router-link></p>
+                  <p><router-link to='player'>从拥抱你的那一刻，我们的命运就闩上了门</router-link></p>
+                  <p><router-link to='player'>蔡世清</router-link></p>
+                  <p><router-link to='player'>治愈、舒缓、安静</router-link></p>
               </div>
                
             </div>
             <!--  -->   <!--  -->
             <div class="athers_img_father">
               <div class="athers_wrapper">
-                <router-link to="">
+                <router-link to='player'>
                   <img  src="https://pic.xiami.net/images/collect/119424962/927933985/d23f5b2b63f348d99dc93f3bac4f2680_d37ec7f8390a4e8bbb08cf78a697fba1.jpg?x-oss-process=image/resize,m_fill,limit_0,s_300/quality,q_80" alt="">
                 </router-link>
                 <div class="count">
@@ -148,16 +148,16 @@
                       <img class="img_btn" src="../assets/bofang.png" alt="">
               </div>
               <div class="word">
-                  <p><router-link to="">从拥抱你的那一刻，我们的命运就闩上了门</router-link></p>
-                  <p><router-link to="">蔡世清</router-link></p>
-                  <p><router-link to="">治愈、舒缓、安静</router-link></p>
+                  <p><router-link to='player'>从拥抱你的那一刻，我们的命运就闩上了门</router-link></p>
+                  <p><router-link to='player'>蔡世清</router-link></p>
+                  <p><router-link to='player'>治愈、舒缓、安静</router-link></p>
               </div>
                
             </div>
             <!--  -->   <!--  -->
             <div class="athers_img_father">
               <div class="athers_wrapper">
-                <router-link to="">
+                <router-link to='player'>
                   <img  src="https://pic.xiami.net/webh5/files/xiamiWeb/39e2c8304424ac3ae25ce4fb7243b897-557x557.gif?x-oss-process=image/resize,m_fill,limit_0,s_300/quality,q_80" alt="">
                 </router-link>
                 <div class="count">
@@ -167,16 +167,16 @@
                       <img class="img_btn" src="../assets/bofang.png" alt="">
               </div>
               <div class="word">
-                  <p><router-link to="">从拥抱你的那一刻，我们的命运就闩上了门</router-link></p>
-                  <p><router-link to="">蔡世清</router-link></p>
-                  <p><router-link to="">治愈、舒缓、安静</router-link></p>
+                  <p><router-link to='player'>从拥抱你的那一刻，我们的命运就闩上了门</router-link></p>
+                  <p><router-link to='player'>蔡世清</router-link></p>
+                  <p><router-link to='player'>治愈、舒缓、安静</router-link></p>
               </div>
                
             </div>
             <!--  -->   <!--  -->
             <div class="athers_img_father">
               <div class="athers_wrapper">
-                <router-link to="">
+                <router-link to='player'>
                   <img  src="https://img.xiami.net/images/appv5/common/5841/5d44478197e90_hbtS_1564755841.jpg?x-oss-process=image/resize,m_fill,limit_0,s_300/quality,q_80" alt="">
                 </router-link>
                 <div class="count">
@@ -186,16 +186,16 @@
                       <img class="img_btn" src="../assets/bofang.png" alt="">
               </div>
               <div class="word">
-                  <p><router-link to="">从拥抱你的那一刻，我们的命运就闩上了门</router-link></p>
-                  <p><router-link to="">蔡世清</router-link></p>
-                  <p><router-link to="">治愈、舒缓、安静</router-link></p>
+                  <p><router-link to='player'>从拥抱你的那一刻，我们的命运就闩上了门</router-link></p>
+                  <p><router-link to='player'>蔡世清</router-link></p>
+                  <p><router-link to='player'>治愈、舒缓、安静</router-link></p>
               </div>
                
             </div>
             <!--  -->   <!--  -->
             <div class="athers_img_father">
               <div class="athers_wrapper">
-                <router-link to="">
+                <router-link to='player'>
                   <img  src="https://img.xiami.net/images/appv5/common/4243/5d4998734425e_LWzY_1565104243.jpg?x-oss-process=image/resize,m_fill,limit_0,s_300/quality,q_80" alt="">
                 </router-link>
                 <div class="count">
@@ -205,16 +205,16 @@
                       <img class="img_btn" src="../assets/bofang.png" alt="">
               </div>
               <div class="word">
-                  <p><router-link to="">从拥抱你的那一刻，我们的命运就闩上了门</router-link></p>
-                  <p><router-link to="">蔡世清</router-link></p>
-                  <p><router-link to="">治愈、舒缓、安静</router-link></p>
+                  <p><router-link to='player'>从拥抱你的那一刻，我们的命运就闩上了门</router-link></p>
+                  <p><router-link to='player'>蔡世清</router-link></p>
+                  <p><router-link to='player'>治愈、舒缓、安静</router-link></p>
               </div>
                
             </div>
             <!--  -->   <!--  -->
             <div class="athers_img_father">
               <div class="athers_wrapper">
-                <router-link to="">
+                <router-link to='player'>
                   <img  src="https://pic.xiami.net/webh5/files/xiamiWeb/e29a366a305b9a10267e478829c69a4f-596x335.gif?x-oss-process=image/resize,m_fill,limit_0,s_300/quality,q_80" alt="">
                 </router-link>
                 <div class="count">
@@ -224,9 +224,9 @@
                       <img class="img_btn" src="../assets/bofang.png" alt="">
               </div>
               <div class="word">
-                  <p><router-link to="">从拥抱你的那一刻，我们的命运就闩上了门</router-link></p>
-                  <p><router-link to="">蔡世清</router-link></p>
-                  <p><router-link to="">治愈、舒缓、安静</router-link></p>
+                  <p><router-link to='player'>从拥抱你的那一刻，我们的命运就闩上了门</router-link></p>
+                  <p><router-link to='player'>蔡世清</router-link></p>
+                  <p><router-link to='player'>治愈、舒缓、安静</router-link></p>
               </div>
                
             </div>
@@ -255,24 +255,24 @@
                   </div> 
                   <div class="cover_right">
                     <div class='new_song_nav'>
-                      <div class="one_nav"><img  src="../assets/btn.png" alt=""><span>播放全部</span></div><div class='tow_nav'><span>10/22</span><router-link to="">→</router-link></div>
+                      <div class="one_nav"><img  src="../assets/btn.png" alt=""><span>播放全部</span></div><div class='tow_nav'><span>10/22</span><router-link to='player'>→</router-link></div>
                     </div>
                     <div class="new_song_list">
                       <ul>
                         <li>
-                          <span style="width:5%"><router-link to="">01</router-link></span><span style="width:42%"><router-link to="">我爱你你却爱着他</router-link></span><span style="width:28%"><router-link to="">黑龙</router-link></span><span style="width:25%"><router-link to="">04:06</router-link></span>
+                          <span style="width:5%"><router-link to='player'>01</router-link></span><span style="width:42%"><router-link to='player'>我爱你你却爱着他</router-link></span><span style="width:28%"><router-link to='player'>黑龙</router-link></span><span style="width:25%"><router-link to='player'>04:06</router-link></span>
                         </li>
                         <li>
-                          <span style="width:5%"><router-link to="">01</router-link></span><span style="width:42%"><router-link to="">我爱你你却爱着他</router-link></span><span style="width:28%"><router-link to="">黑龙</router-link></span><span style="width:25%"><router-link to="">04:06</router-link></span>
+                          <span style="width:5%"><router-link to='player'>01</router-link></span><span style="width:42%"><router-link to='player'>我爱你你却爱着他</router-link></span><span style="width:28%"><router-link to='player'>黑龙</router-link></span><span style="width:25%"><router-link to='player'>04:06</router-link></span>
                         </li>
                         <li>
-                          <span style="width:5%"><router-link to="">01</router-link></span><span style="width:42%"><router-link to="">我爱你你却爱着他</router-link></span><span style="width:28%"><router-link to="">黑龙</router-link></span><span style="width:25%"><router-link to="">04:06</router-link></span>
+                          <span style="width:5%"><router-link to='player'>01</router-link></span><span style="width:42%"><router-link to='player'>我爱你你却爱着他</router-link></span><span style="width:28%"><router-link to='player'>黑龙</router-link></span><span style="width:25%"><router-link to='player'>04:06</router-link></span>
                         </li>
                         <li>
-                          <span style="width:5%"><router-link to="">01</router-link></span><span style="width:42%"><router-link to="">我爱你你却爱着他</router-link></span><span style="width:28%"><router-link to="">黑龙</router-link></span><span style="width:25%"><router-link to="">04:06</router-link></span>
+                          <span style="width:5%"><router-link to='player'>01</router-link></span><span style="width:42%"><router-link to='player'>我爱你你却爱着他</router-link></span><span style="width:28%"><router-link to='player'>黑龙</router-link></span><span style="width:25%"><router-link to='player'>04:06</router-link></span>
                         </li>
                         <li>
-                          <span style="width:5%"><router-link to="">01</router-link></span><span style="width:42%"><router-link to="">我爱你你却爱着他</router-link></span><span style="width:28%"><router-link to="">黑龙</router-link></span><span style="width:25%"><router-link to="">04:06</router-link></span>
+                          <span style="width:5%"><router-link to='player'>01</router-link></span><span style="width:42%"><router-link to='player'>我爱你你却爱着他</router-link></span><span style="width:28%"><router-link to='player'>黑龙</router-link></span><span style="width:25%"><router-link to='player'>04:06</router-link></span>
                         </li>
                       </ul>
                     </div>
@@ -293,12 +293,12 @@
             </div>
             <div class="five_nav">
                     <ul>
-                      <li><router-link to="">精选</router-link></li>
-                      <li><router-link to="">内地</router-link></li>
-                      <li><router-link to="">欧美</router-link></li>
-                      <li><router-link to="">韩语</router-link></li>
-                      <li><router-link to="">日语</router-link></li>
-                      <li><router-link to="">港台</router-link></li>
+                      <li><router-link to='player'>精选</router-link></li>
+                      <li><router-link to='player'>内地</router-link></li>
+                      <li><router-link to='player'>欧美</router-link></li>
+                      <li><router-link to='player'>韩语</router-link></li>
+                      <li><router-link to='player'>日语</router-link></li>
+                      <li><router-link to='player'>港台</router-link></li>
                     </ul>
               </div>
               <div class="three_list">
@@ -306,7 +306,7 @@
                 <div class="three_item">
                   <div class="three_wrapper">
                       <div class="three_img">
-                      <router-link to="">
+                      <router-link to='player'>
                        <img style="width:100%" src="https://pic.xiami.net/images/album/img38/138/5d0f01447d162_6913738_1561264452.jpg?x-oss-process=image/resize,m_fill,s_300/quality,q_80" alt="">
                       </router-link>
                       <div class="three_count">
@@ -318,8 +318,8 @@
                       </div>
                       <!-- xia -->
                       <div class="three_text">
-                        <p><router-link to="">long kiss sey bey</router-link></p>
-                        <p><router-link to="">火影忍者</router-link></p>
+                        <p><router-link to='player'>long kiss sey bey</router-link></p>
+                        <p><router-link to='player'>火影忍者</router-link></p>
                         <p>2019.9.1</p>
                       </div>
                 </div>
@@ -328,7 +328,7 @@
                 <div class="three_item">
                   <div class="three_wrapper">
                       <div class="three_img">
-                      <router-link to="">
+                      <router-link to='player'>
                        <img style="width:100%" src="https://pic.xiami.net/images/album/img61/162/5cff6d605cb87_8144661_1560243552.jpg?x-oss-process=image/resize,m_fill,s_300/quality,q_80" alt="">
                       </router-link>
                       <div class="three_count">
@@ -340,8 +340,8 @@
                       </div>
                       <!-- xia -->
                       <div class="three_text">
-                        <p><router-link to="">long kiss sey bey</router-link></p>
-                        <p><router-link to="">火影忍者</router-link></p>
+                        <p><router-link to='player'>long kiss sey bey</router-link></p>
+                        <p><router-link to='player'>火影忍者</router-link></p>
                         <p>2019.9.1</p>
                       </div>
                 </div>
@@ -349,7 +349,7 @@
                 <div class="three_item">
                   <div class="three_wrapper">
                       <div class="three_img">
-                      <router-link to="">
+                      <router-link to='player'>
                        <img style="width:100%" src="https://pic.xiami.net/images/album/img65/105/5cde1ea4a4e02_5265965_1558060708.jpg?x-oss-process=image/resize,m_fill,s_300/quality,q_80" alt="">
                       </router-link>
                       <div class="three_count">
@@ -361,8 +361,8 @@
                       </div>
                       <!-- xia -->
                       <div class="three_text">
-                        <p><router-link to="">long kiss sey bey</router-link></p>
-                        <p><router-link to="">火影忍者</router-link></p>
+                        <p><router-link to='player'>long kiss sey bey</router-link></p>
+                        <p><router-link to='player'>火影忍者</router-link></p>
                         <p>2019.9.1</p>
                       </div>
                 </div>
@@ -370,7 +370,7 @@
                 <div class="three_item">
                   <div class="three_wrapper">
                       <div class="three_img">
-                      <router-link to="">
+                      <router-link to='player'>
                        <img style="width:100%" src="https://pic.xiami.net/images/album/img46/135/5d425680301f7_6761946_1564628608.jpg?x-oss-process=image/resize,m_fill,s_300/quality,q_80" alt="">
                       </router-link>
                       <div class="three_count">
@@ -382,8 +382,8 @@
                       </div>
                       <!-- xia -->
                       <div class="three_text">
-                        <p><router-link to="">long kiss sey bey</router-link></p>
-                        <p><router-link to="">火影忍者</router-link></p>
+                        <p><router-link to='player'>long kiss sey bey</router-link></p>
+                        <p><router-link to='player'>火影忍者</router-link></p>
                         <p>2019.9.1</p>
                       </div>
                 </div>
@@ -391,7 +391,7 @@
                 <div class="three_item">
                   <div class="three_wrapper">
                       <div class="three_img">
-                      <router-link to="">
+                      <router-link to='player'>
                        <img style="width:100%" src="https://pic.xiami.net/images/album/img17/909817/9098171560909817.jpg?x-oss-process=image/resize,m_fill,s_300/quality,q_80" alt="">
                       </router-link>
                       <div class="three_count">
@@ -403,8 +403,8 @@
                       </div>
                       <!-- xia -->
                       <div class="three_text">
-                        <p><router-link to="">long kiss sey bey</router-link></p>
-                        <p><router-link to="">火影忍者</router-link></p>
+                        <p><router-link to='player'>long kiss sey bey</router-link></p>
+                        <p><router-link to='player'>火影忍者</router-link></p>
                         <p>2019.9.1</p>
                       </div>
                 </div>
@@ -412,7 +412,7 @@
                 <div class="three_item">
                   <div class="three_wrapper">
                       <div class="three_img">
-                      <router-link to="">
+                      <router-link to='player'>
                        <img style="width:100%" src="https://pic.xiami.net/images/album/img75/5914/5d46dd5e963e7_295707375_1564925278.jpg?x-oss-process=image/resize,m_fill,s_300/quality,q_80" alt="">
                       </router-link>
                       <div class="three_count">
@@ -424,8 +424,8 @@
                       </div>
                       <!-- xia -->
                       <div class="three_text">
-                        <p><router-link to="">long kiss sey bey</router-link></p>
-                        <p><router-link to="">火影忍者</router-link></p>
+                        <p><router-link to='player'>long kiss sey bey</router-link></p>
+                        <p><router-link to='player'>火影忍者</router-link></p>
                         <p>2019.9.1</p>
                       </div>
                 </div>
@@ -433,7 +433,7 @@
                 <div class="three_item">
                   <div class="three_wrapper">
                       <div class="three_img">
-                      <router-link to="">
+                      <router-link to='player'>
                        <img style="width:100%" src="https://pic.xiami.net/images/album/img25/135/5d493f439f6d3_6792125_1565081411.jpg?x-oss-process=image/resize,m_fill,s_300/quality,q_80" alt="">
                       </router-link>
                       <div class="three_count">
@@ -445,8 +445,8 @@
                       </div>
                       <!-- xia -->
                       <div class="three_text">
-                        <p><router-link to="">long kiss sey bey</router-link></p>
-                        <p><router-link to="">火影忍者</router-link></p>
+                        <p><router-link to='player'>long kiss sey bey</router-link></p>
+                        <p><router-link to='player'>火影忍者</router-link></p>
                         <p>2019.9.1</p>
                       </div>
                 </div>
@@ -454,7 +454,7 @@
                 <div class="three_item">
                   <div class="three_wrapper">
                       <div class="three_img">
-                      <router-link to="">
+                      <router-link to='player'>
                        <img style="width:100%" src="https://pic.xiami.net/images/album/img36/2105002436/1565257914384.jpg?x-oss-process=image/resize,m_fill,s_300/quality,q_80" alt="">
                       </router-link>
                       <div class="three_count">
@@ -466,8 +466,8 @@
                       </div>
                       <!-- xia -->
                       <div class="three_text">
-                        <p><router-link to="">long kiss sey bey</router-link></p>
-                        <p><router-link to="">火影忍者</router-link></p>
+                        <p><router-link to='player'>long kiss sey bey</router-link></p>
+                        <p><router-link to='player'>火影忍者</router-link></p>
                         <p>2019.9.1</p>
                       </div>
                 </div>
@@ -475,7 +475,7 @@
                 <div class="three_item">
                   <div class="three_wrapper">
                       <div class="three_img">
-                      <router-link to="">
+                      <router-link to='player'>
                        <img style="width:100%" src="https://pic.xiami.net/images/album/img65/133/5d4be7e1c5673_6696165_1565255649.jpg?x-oss-process=image/resize,m_fill,s_300/quality,q_80" alt="">
                       </router-link>
                       <div class="three_count">
@@ -487,8 +487,8 @@
                       </div>
                       <!-- xia -->
                       <div class="three_text">
-                        <p><router-link to="">long kiss sey bey</router-link></p>
-                        <p><router-link to="">火影忍者</router-link></p>
+                        <p><router-link to='player'>long kiss sey bey</router-link></p>
+                        <p><router-link to='player'>火影忍者</router-link></p>
                         <p>2019.9.1</p>
                       </div>
                 </div>
@@ -496,7 +496,7 @@
                 <div class="three_item">
                   <div class="three_wrapper">
                       <div class="three_img">
-                      <router-link to="">
+                      <router-link to='player'>
                        <img style="width:100%" src="https://pic.xiami.net/images/album/img48/54/5d4bc409dd72c_2745148_1565246473.jpg?x-oss-process=image/resize,m_fill,s_300/quality,q_80" alt="">
                       </router-link>
                       <div class="three_count">
@@ -508,8 +508,8 @@
                       </div>
                       <!-- xia -->
                       <div class="three_text">
-                        <p><router-link to="">long kiss sey bey</router-link></p>
-                        <p><router-link to="">火影忍者</router-link></p>
+                        <p><router-link to='player'>long kiss sey bey</router-link></p>
+                        <p><router-link to='player'>火影忍者</router-link></p>
                         <p>2019.9.1</p>
                       </div>
                 </div>
@@ -557,12 +557,12 @@
               </div>
               <div class="five_nav">
                     <ul>
-                      <li><router-link to="">精选</router-link></li>
-                      <li><router-link to="">内地</router-link></li>
-                      <li><router-link to="">欧美</router-link></li>
-                      <li><router-link to="">韩语</router-link></li>
-                      <li><router-link to="">日语</router-link></li>
-                      <li><router-link to="">港台</router-link></li>
+                      <li><router-link to='player'>精选</router-link></li>
+                      <li><router-link to='player'>内地</router-link></li>
+                      <li><router-link to='player'>欧美</router-link></li>
+                      <li><router-link to='player'>韩语</router-link></li>
+                      <li><router-link to='player'>日语</router-link></li>
+                      <li><router-link to='player'>港台</router-link></li>
                     </ul>
               </div>
               <div class="floor_bottom">
@@ -579,8 +579,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -596,8 +596,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -613,8 +613,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -630,8 +630,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -647,8 +647,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -664,8 +664,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -681,8 +681,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -698,8 +698,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -715,8 +715,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -732,8 +732,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -751,8 +751,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -768,8 +768,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -785,8 +785,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -802,8 +802,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -819,8 +819,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -836,8 +836,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -853,8 +853,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -870,8 +870,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -887,8 +887,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -904,8 +904,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -923,8 +923,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -940,8 +940,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -957,8 +957,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -974,8 +974,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -991,8 +991,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -1008,8 +1008,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -1025,8 +1025,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -1042,8 +1042,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -1059,8 +1059,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
@@ -1076,8 +1076,8 @@
                           <img class="img_btn" src="../assets/bofang.png" alt="">
                         </div>
                         <div class="item_text">
-                          <p><router-link to="">欢迎来到木叶忍者村</router-link></p>
-                          <p><router-link to="">欢迎来到木叶</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶忍者村</router-link></p>
+                          <p><router-link to='player'>欢迎来到木叶</router-link></p>
                           <p>欢迎来</p>
                         </div>
                       </div>
